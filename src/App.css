@@ -1,7 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body{
+  background-color: #850923;
+}
+
+@font-face {
+  font-family: 'Amoresa';
+  src: url('/public/fonts/Amoresa.woff2') format('woff2'),
+       url('/public/fonts/Amoresa.woff') format('woff'),
+       url('/public/fonts/AmoresaAged.woff2') format('woff2'),
+       url('/public/fonts/AmoresaAged.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @keyframes focusIn {
+          0% {
+            filter: blur(20px);
+            opacity: 0;
+          }
+          100% {
+            filter: blur(0);
+            opacity: 1;
+          }
+        }
+        .focus-animation {
+          animation: focusIn 2s ease-out forwards;
+        }*/
+
+.portada {
+  background:
+/*  linear-gradient(
+      to top,
+      #A64246 10%,     
+      rgba(166, 66, 90, 0) 9
+    )*/
+  linear-gradient(
+      to top,               /* dirección del gradiente */
+      rgba(133, 9, 35, 0.7)   30%, /* rojo sólido desde abajo */
+      rgba(255, 0, 0, 0) 70%    /* se desvanece hacia arriba */
+    ),
+  url(./assets/15rojo1.avif);
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  width: 100%;
+  height: 51vh;
+
+  display: flex;
+  justify-content: center;   /* centra el bloque horizontal */
+  align-items: flex-end;     /* lleva al final vertical */
+  padding-bottom: 50px;
+  text-align: center;        /* centra texto dentro del bloque */
+  color: white;
+}
+
+.portada .textos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* asegura que h1 y h2 estén centrados */
+  max-width: 90%;      /* evita que se desborde en pantallas chicas */
+}
+
+
+.portada h1 {
+  font-family: 'Amoresa', sans-serif;
+  font-size: 50px;
+  margin: 0;
+}
+
+.portada h2 {
+  font-size: 25px;
+  margin: 5px 0 0 0;
+}
+
+
+ 
+ 
+
 
