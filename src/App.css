@@ -48,8 +48,8 @@ body{
   background:
   linear-gradient(
       to top,
-      #A64246 5%,     
-      rgba(166, 66, 70, 0) 95%
+      #A64246 1%,     
+      rgba(166, 66, 70, 0) 99%
     ),
 /*  linear-gradient(
       to top,               
@@ -61,7 +61,7 @@ body{
   /*background-attachment: fixed;*/
   background-position: center;
   width: 100%;
-  height: 70vh;
+  height: 80vh;
 
   display: flex;
   justify-content: center;   /* centra el bloque horizontal */
