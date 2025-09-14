@@ -48,8 +48,8 @@ body{
   background:
   linear-gradient(
       to top,
-      #A64246 1%,     
-      rgba(166, 66, 70, 0) 99%
+          
+      rgba(167, 52, 56, 0.3) 100%
     ),
 /*  linear-gradient(
       to top,               
@@ -61,7 +61,7 @@ body{
   /*background-attachment: fixed;*/
   background-position: center;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 
   display: flex;
   justify-content: center;   /* centra el bloque horizontal */
@@ -83,13 +83,14 @@ body{
 .portada h1 {
   font-family: 'Amoresa', sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 60px;
   margin: 0;
 }
 
 .portada h2 {
    font-family: 'Playfair Display', serif;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 300;
   margin: 5px 0 0 0;
 }
 
