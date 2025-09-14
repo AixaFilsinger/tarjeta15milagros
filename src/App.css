@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +29,7 @@ body{
   font-style: normal;
 }
 
+
 /* @keyframes focusIn {
           0% {
             filter: blur(20px);
@@ -44,22 +46,22 @@ body{
 
 .portada {
   background:
-/*  linear-gradient(
+  linear-gradient(
       to top,
       #A64246 10%,     
-      rgba(166, 66, 90, 0) 9
-    )*/
-  linear-gradient(
-      to top,               /* dirección del gradiente */
-      rgba(133, 9, 35, 0.7)   30%, /* rojo sólido desde abajo */
-      rgba(255, 0, 0, 0) 70%    /* se desvanece hacia arriba */
+      rgba(166, 66, 70, 0) 90%
     ),
+/*  linear-gradient(
+      to top,               
+      rgba(133, 9, 35, 0.7)   
+      rgba(255, 0, 0, 0) 70%    
+    ),*/
   url(./assets/15rojo1.avif);
   background-size: cover;
   /*background-attachment: fixed;*/
   background-position: center;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
 
   display: flex;
   justify-content: center;   /* centra el bloque horizontal */
@@ -73,17 +75,20 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center; /* asegura que h1 y h2 estén centrados */
-  max-width: 90%;      /* evita que se desborde en pantallas chicas */
+  max-width: 100%;      /*90% evita que se desborde en pantallas chicas */
+ padding-top: 5px ;
 }
 
 
 .portada h1 {
   font-family: 'Amoresa', sans-serif;
+  font-weight: 300;
   font-size: 50px;
   margin: 0;
 }
 
 .portada h2 {
+   font-family: 'Playfair Display', serif;
   font-size: 25px;
   margin: 5px 0 0 0;
 }
