@@ -2,9 +2,11 @@ import React from 'react';
 
 const Frase = () => {
     return (
-        <div>
+        <section className='container text-center '>
             
-        </div>
+            <p className='frase1'>~ Mi vida es como un cuento de hadas, llena de alegrías y sorpresas inesperadas, 
+                 y ahora me presento como una princesa para invitarte a mis quince primaveras ~</p>
+        </section>
     );
 };
 

@@ -21,10 +21,11 @@ body{
 
 @font-face {
   font-family: 'Amoresa';
-  src: url('/public/fonts/Amoresa.woff2') format('woff2'),
-       url('/public/fonts/Amoresa.woff') format('woff'),
-       url('/public/fonts/AmoresaAged.woff2') format('woff2'),
-       url('/public/fonts/AmoresaAged.woff') format('woff');
+  src: url('/fonts/Amoresa.woff2') format('woff2'),
+       url('/fonts/Amoresa.woff') format('woff'),
+       url('/fonts/AmoresaAged.woff2') format('woff2'),
+       url('/fonts/AmoresaAged.woff') format('woff');
+       
   font-weight: normal;
   font-style: normal;
 }
@@ -46,17 +47,12 @@ body{
 
 .portada {
   background:
-  linear-gradient(
-      to top,
-          
-      rgba(167, 52, 56, 0.3) 100%
-    ),
 /*  linear-gradient(
       to top,               
       rgba(133, 9, 35, 0.7)   
       rgba(255, 0, 0, 0) 70%    
     ),*/
-  url(./assets/15rojo1.avif);
+  url(./assets/invitación_20250914_133341_0000.png);
   background-size: cover;
   /*background-attachment: fixed;*/
   background-position: center;
@@ -66,7 +62,7 @@ body{
   display: flex;
   justify-content: center;   /* centra el bloque horizontal */
   align-items: flex-end;     /* lleva al final vertical */
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   text-align: center;        /* centra texto dentro del bloque */
   color: white;
 }
@@ -76,7 +72,6 @@ body{
   flex-direction: column;
   align-items: center; /* asegura que h1 y h2 estén centrados */
   max-width: 100%;      /*90% evita que se desborde en pantallas chicas */
- padding-top: 5px ;
 }
 
 
@@ -91,11 +86,51 @@ body{
    font-family: 'Playfair Display', serif;
   font-size: 30px;
   font-weight: 300;
-  margin: 5px 0 0 0;
+  margin: 0 0 0 0;
 }
 
+.music-player-card {
+  width: 340px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.15); /* fondo semi-transparente */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px; /* rectángulo con bordes ovalados */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px); /* efecto vidrio */
+  -webkit-backdrop-filter: blur(10px);
+  margin: auto;
+}
 
- 
- 
+.song-title {
+  font-weight: bold;
+  color: white; /* texto blanco */
+  margin-bottom: 10px;
+  font-size: 16px;
+}
 
+.btn-music {
+  background-color: white; /* botón blanco */
+  color: #DC143C; /* ícono carmesí */
+  border: none;
+  padding: 8px 14px;
+  border-radius: 50%; /* botón redondo */
+  font-size: 20px;
+  transition: 0.3s;
+}
 
+.btn-music:hover {
+  background-color: #DC143C; /* rojo al pasar */
+  color: white; /* ícono blanco */
+}
+
+.progress-bar {
+  width: 100%;
+  margin-top: 12px;
+  accent-color: white; /* barra blanca */
+}
+
+.frase1{
+  font-family: 'Buffalo';
+  src: url('/fonts/Buffalo.woff') format('woff');
+  color: aliceblue;
+}
