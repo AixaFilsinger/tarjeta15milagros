@@ -116,7 +116,7 @@ body{
 
 .btn-music {
   background-color: white; /* botón blanco */
-  color: #DC143C; /* ícono carmesí */
+  color: rgb(123, 26, 45); /* ícono carmesí */
   border: none;
   padding: 8px 14px;
   border-radius: 50%; /* botón redondo */
@@ -125,7 +125,9 @@ body{
 }
 
 .btn-music:hover {
-  background-color: #DC143C; /* rojo al pasar */
+   background-color: rgb(123, 26, 45); /* O tu código de rojo vino preferido */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%); /* Brillo */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); /* Reflejo */
   color: white; /* ícono blanco */
 }
 
