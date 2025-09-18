@@ -88,6 +88,12 @@ body{
   margin: 0;
 }
 
+.dalePlay{
+  font-family: 'Amoresa', cursive;
+  color: white;
+  font-size: 2rem;
+}
+
 .portada h2 {
    font-family: 'Playfair Display', serif;
   font-size: 30px;

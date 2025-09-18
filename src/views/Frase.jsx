@@ -5,7 +5,7 @@ const Frase = () => {
     return (
         <section className='container text-center p-5'>
             <img src={adorno} alt="" width={300}/>
-            <p className='frase1'>~ Mi vida es como un cuento de hadas, llena de alegrías y sorpresas inesperadas, 
+            <p className='frase1 my-3'>~ Mi vida es como un cuento de hadas, llena de alegrías y sorpresas inesperadas, 
                  y ahora me presento como una princesa para invitarte a mis quince primaveras ~</p>
                   <img src={adorno} alt="" width={300}/>
         </section>
