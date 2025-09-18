@@ -29,6 +29,12 @@ body{
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Buffalo';
+  src: url('/fonts/Buffalo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /* @keyframes focusIn {
@@ -130,7 +136,7 @@ body{
 }
 
 .frase1{
-  font-family: 'Buffalo';
-  src: url('/fonts/Buffalo.woff') format('woff');
-  color: aliceblue;
+  font-family: 'Buffalo', cursive;
+  font-size: 2rem;
+  color: white;
 }
