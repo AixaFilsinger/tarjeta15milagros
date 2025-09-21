@@ -68,7 +68,7 @@ const CuentaRegresiva = () => {
           </div>
         </div>
       </aside>
-      <p className=" mt-5">para este día tan especial</p>
+      <p className=" mt-5">Para este día tan especial</p>
     </section>
   );
 };

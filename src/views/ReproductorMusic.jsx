@@ -28,7 +28,7 @@ const ReproductorMusic = () => {
   };
 
   return (
-  <section className="container text-center mt-5">
+  <section className="container text-center mt-5" data-aos="fade-up">
     <h3 className="dalePlay">Dale Play a mi canción favorita</h3>
     <div className="music-player-card text-center my-4">
       <p className="song-title">Clocks - Coldplay</p>

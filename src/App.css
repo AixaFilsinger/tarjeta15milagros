@@ -237,10 +237,7 @@ body{
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-.btn-varios:active {
-  transform: scale(0.98);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
+
 .qr{
   font-family: "Riwaya", sans-serif;
  color: white;
@@ -279,3 +276,32 @@ body{
   opacity: 0;
   animation: enfoque-letra 0.6s ease forwards;
 }
+
+.modal-custom {
+  color: #850923;             /* texto oscuro */
+  font-family: 'Nunito', sans-serif;
+}
+.modal-custom p {
+  color: #800020;             /* asegura que los párrafos se vean */
+  font-size: 1.5rem;
+  margin: 8px 0;
+}
+.btn-varios2 {
+  background: #800020;
+  color: #fff;
+  border: 2px solid gold;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  
+}
+
+.fin{
+  height: 90vh;
+}
+
+
