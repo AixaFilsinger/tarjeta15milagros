@@ -110,16 +110,16 @@ body{
 }
 
 .dalePlay{
-  font-family:'Playfair Display', cursive;
+  font-family:'Buffalo', cursive;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .portada h2 {
-   font-family: 'Playfair Display', serif;
+   font-family: 'Buffalo', cursive;
   font-size: 30px;
   font-weight: 300;
-  margin: 0 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .music-player-card {
@@ -196,7 +196,7 @@ body{
 }
 .contador h3{
   font-size: 4rem;
-   font-family: 'Open Sans', sans-serif;
+   font-family:'Times New Roman', Times, serif;
    font-weight: 200;
    margin: 0;
 }
@@ -240,4 +240,42 @@ body{
 .btn-varios:active {
   transform: scale(0.98);
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.qr{
+  font-family: "Riwaya", sans-serif;
+ color: white;
+ margin-top: 10px;
+ font-size: 2rem;
+}
+.fin h4{
+ font-family: "Nefelibata", cursive;
+ color: white;
+ font-size: 40px;
+ margin-bottom: 80px;
+}
+.fin h2{
+  font-family: 'Amoresa', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 60px;
+  margin: 0;
+}
+
+@keyframes enfoque-letra {
+  0% {
+    filter: blur(8px);
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.enfoque span {
+  display: inline-block;
+  opacity: 0;
+  animation: enfoque-letra 0.6s ease forwards;
 }
