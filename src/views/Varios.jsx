@@ -5,7 +5,7 @@ import Notamusical from "../assets/Notamusical.png";
 import calendario from "../assets/Calendario.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
-import cinta from "../assets/cinta.png";
+import brillo from "../assets/star.png";
 import qr from "../assets/qr.jpeg";
 import { useState } from "react";
 
@@ -16,7 +16,8 @@ const Varios = () => {
     <section className="container d-flex flex-column align-items-center varios">
       <img src={adorno} alt="" width={300} className="mt-5" />
       <article className="row">
-        <aside className="col-xs-12 text-center cuando mb-4 mt-5">
+        <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+            <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={calendario} alt="" width={100} />
           <h4
             data-aos="fade-right"
@@ -34,7 +35,7 @@ const Varios = () => {
             21:30
           </p>
         </aside>
-        <aside className="col-xs-12 text-center donde mb-4">
+        <aside className="col-xs-12 text-center donde mb-4 position-relative">
           <img src={boladisco} alt="" width={100} />
           <h4
             data-aos="fade-right"
@@ -58,6 +59,7 @@ const Varios = () => {
           >
             CÓMO LLEGAR
           </button>
+          <img src={brillo} alt="" className="brillo brillo-bottom" />
         </aside>
         <aside className="col-xs-12 text-center dressCode mb-4">
           <img src={dressCode} alt="" width={100} />
@@ -172,11 +174,13 @@ const Varios = () => {
         <img src={qr} alt="" width={300} />
       </article>
       <article
-        className="my-5 fin d-flex flex-column justify-content-center align-items-center"
-        data-aos="zoom-in-down"
+        className="my-5 fin d-flex flex-column justify-content-center align-items-center position-relative"
+       
       >
-        <h4>¡No podes faltar!</h4>
-        <h2>Milagros</h2>
+        <img src={brillo} alt="" className="brillo brillo-top1" />
+        <h4  data-aos="zoom-in-down">¡No podes faltar!</h4>
+        <h2  data-aos="zoom-in-down">Milagros</h2>
+        <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
   );

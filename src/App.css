@@ -306,3 +306,44 @@ body{
 }
 
 
+
+/* Estilo base del brillo */
+.brillo {
+  position: absolute;
+  width: 120px;  /* ajusta según quieras */
+  opacity: 0.8;
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Ubicación del brillo */
+.brillo-top {
+  top: -40px;
+  left: -5px;
+}
+
+.brillo-bottom {
+  bottom: -40px;
+  right: 5px;
+  animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
+}
+.brillo-top1 {
+  top: 100px;
+  left: -5px;
+}
+
+.brillo-bottom1 {
+  bottom: 100px;
+  right: 5px;
+  animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
+}
+
+/* Animación flotante */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-10px) scale(1.05);
+  }
+}
+
