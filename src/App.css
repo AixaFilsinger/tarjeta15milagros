@@ -282,6 +282,7 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 .modal-custom p {
+  font-family:'Nunito', sans-serif ;
   color: #800020;             /* asegura que los párrafos se vean */
   font-size: 1.5rem;
   margin: 8px 0;
