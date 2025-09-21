@@ -14,7 +14,7 @@ import Carrusel from './views/Carrusel'
 function App() {
    useEffect(() => {
     AOS.init({
-      duration: 1000, // duración animación (ms)
+      duration: 700, // duración animación (ms)
       once: true,     // true = solo se ejecuta una vez
     });
   }, []);
