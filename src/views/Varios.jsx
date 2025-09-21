@@ -17,9 +17,7 @@ const Varios = () => {
       <img src={adorno} alt="" width={300} className="mt-5" />
       <article className="row">
         <aside className="col-xs-12 text-center cuando mb-4 mt-5">
-          <img src={calendario} alt="" width={100} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" />
+          <img src={calendario} alt="" width={100} />
           <h4
             data-aos="fade-right"
             data-aos-offset="300"
@@ -37,19 +35,22 @@ const Varios = () => {
           </p>
         </aside>
         <aside className="col-xs-12 text-center donde mb-4">
-          <img src={boladisco} alt="" width={100}  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"/>
-          <h4 data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">¿Dónde?</h4>
-          <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">Salón Torre Molino</p>
+          <img src={boladisco} alt="" width={100} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            ¿Dónde?
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Salón Torre Molino
+          </p>
           <button
-          data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
             className="btn-varios mt-3 mb-5"
             onClick={() =>
               window.open("https://maps.app.goo.gl/TZHeGarFSuTrbdZf7")
@@ -59,32 +60,39 @@ const Varios = () => {
           </button>
         </aside>
         <aside className="col-xs-12 text-center dressCode mb-4">
-          <img src={dressCode} alt="" width={100} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" />
-          <h4 data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">DressCode</h4>
-          <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+          <img src={dressCode} alt="" width={100} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            DressCode
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Gala <br /> Evitar el color rojo
           </p>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
-          <img src={Notamusical} alt="" width={100} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"/>
-          <h4 data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">PLAYLIST</h4>
-          <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">¡Creemos la playlist de la noche juntos!</p>
+          <img src={Notamusical} alt="" width={100} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            PLAYLIST
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            ¡Creemos la playlist de la noche juntos!
+          </p>
           <button
-          data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
             className="btn-varios mt-3 mb-5"
             onClick={() =>
               window.open(
@@ -96,18 +104,15 @@ const Varios = () => {
           </button>
         </aside>
         <aside className="col-xs-12 text-center asistencia mb-4">
-          <img src={asistencia} alt="" width={100}  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"/>
-          <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+          <img src={asistencia} alt="" width={100} />
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Soñé con este día y me gustaría vivirlo con quienes más quiero...
           </p>
           <button
-          data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
             className="btn-varios mt-3 mb-5"
             onClick={() => window.open("https://wa.link/26qz7t")}
           >
@@ -115,16 +120,15 @@ const Varios = () => {
           </button>
         </aside>
         <aside className="col-xs-12 text-center regalo mb-5">
-          <img src={regalo} alt="" width={100}  data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"/>
-          <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">El mejor regalo que pueda tener será tu presencia</p>
+          <img src={regalo} alt="" width={100} />
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            El mejor regalo que pueda tener será tu presencia
+          </p>
           <button
-          data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"
             className="btn-varios mt-3 mb-5"
             onClick={() => setShowModal(true)}
           >
@@ -167,7 +171,10 @@ const Varios = () => {
         </h3>
         <img src={qr} alt="" width={300} />
       </article>
-      <article className="my-5 fin d-flex flex-column justify-content-center align-items-center" data-aos="zoom-in-down">
+      <article
+        className="my-5 fin d-flex flex-column justify-content-center align-items-center"
+        data-aos="zoom-in-down"
+      >
         <h4>¡No podes faltar!</h4>
         <h2>Milagros</h2>
       </article>
