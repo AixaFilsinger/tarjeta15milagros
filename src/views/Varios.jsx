@@ -6,6 +6,8 @@ import calendario from "../assets/Calendario.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
 import brillo from "../assets/star.png";
+import misa from "../assets/misa.png";
+import glitter from "../assets/glitter.jpg";
 import qr from "../assets/qr.jpeg";
 import { useState } from "react";
 
@@ -13,9 +15,30 @@ const Varios = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section className="container d-flex flex-column align-items-center varios">
+    <section>
+      <article className="varios0 pt-4 pb-4">
+      <section className="container d-flex flex-column align-items-center varios">
       <img src={adorno} alt="" width={300} className="mt-5" />
       <article className="row">
+        <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
+            <img src={brillo} alt="" className="brillo brillo-top"/>
+          <img src={misa} alt="" width={100} />
+          <h4
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Misa
+          </h4>
+          <p
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            23 de noviembre Virgen de la merced<br />
+            21:30
+          </p>
+        </aside>
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
           <img src={calendario} alt="" width={100} />
@@ -75,7 +98,7 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            Gala <br /> Evitar el color rojo
+            Elegante<br /> Evitar el color rojo
           </p>
         </aside>
         <aside className="col-xs-12 text-center playlist mb-4">
@@ -153,7 +176,7 @@ const Varios = () => {
                 <strong>Alias:</strong> roxi.53
               </p>
               <p className="mb-3">
-                <strong>A nombre de:</strong> Milagros Guadalupe Sanchez
+                <strong>A nombre de:</strong><br/>Roxana Portuese
               </p>
 
               <button
@@ -167,7 +190,10 @@ const Varios = () => {
         </aside>
       </article>
       <img src={adorno} alt="" width={300} />
-      <article className="text-center mb-5" data-aos="fade-up">
+      
+    </section>
+    </article>
+    <article className="text-center mb-5" data-aos="fade-up">
         <h3 className="qr mb-3">
           Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos acá!
         </h3>
@@ -183,6 +209,8 @@ const Varios = () => {
         <img src={brillo} alt="" className="brillo brillo-bottom1" />
       </article>
     </section>
+    
+    
   );
 };
 
