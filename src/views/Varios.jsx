@@ -2,12 +2,11 @@ import adorno from "../assets/adorno.png";
 import boladisco from "../assets/Boladisco.png";
 import dressCode from "../assets/Dresscode.png";
 import Notamusical from "../assets/Notamusical.png";
-import calendario from "../assets/Calendario.png";
+import copas from "../assets/Copas.png";
 import asistencia from "../assets/invitacion.png";
 import regalo from "../assets/regalo.png";
 import brillo from "../assets/star.png";
 import misa from "../assets/misa.png";
-import glitter from "../assets/glitter.jpg";
 import qr from "../assets/qr.jpeg";
 import { useState } from "react";
 
@@ -15,7 +14,7 @@ const Varios = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <section>
+    <section className="m-0 p-0">
       <article className="varios0 pt-4 pb-4">
       <section className="container d-flex flex-column align-items-center varios">
       <img src={adorno} alt="" width={300} className="mt-5" />
@@ -41,13 +40,13 @@ const Varios = () => {
         </aside>
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
-          <img src={calendario} alt="" width={100} />
+          <img src={copas} alt="" width={150} />
           <h4
             data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            ¿Cuando?
+            Fiesta
           </h4>
           <p
             data-aos="fade-right"
@@ -200,7 +199,7 @@ const Varios = () => {
         <img src={qr} alt="" width={300} />
       </article>
       <article
-        className="my-5 fin d-flex flex-column justify-content-center align-items-center position-relative"
+        className=" fin d-flex flex-column justify-content-center align-items-center position-relative"
        
       >
         <img src={brillo} alt="" className="brillo brillo-top1" />

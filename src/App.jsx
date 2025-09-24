@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   return (
-    <section className='mainSection'>
+    <section>
      <Portada></Portada>
      <ReproductorMusic></ReproductorMusic>
      <Carrusel></Carrusel>
