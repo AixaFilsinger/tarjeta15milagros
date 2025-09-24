@@ -339,13 +339,13 @@ body{
   animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
 }
 .brillo-top1 {
-  top: 100px;
-  left: -5px;
+  top: 30px;
+  left: -100px;
 }
 
 .brillo-bottom1 {
-  bottom: 100px;
-  right: 5px;
+  bottom: 30px;
+  right: -100px;
   animation-delay: 1.5s; /* para que no se muevan al mismo tiempo */
 }
 
