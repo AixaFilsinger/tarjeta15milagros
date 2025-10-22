@@ -97,7 +97,7 @@ body{
 }
 
 .portada .textos {
-  margin-bottom: 6rem;
+  margin-bottom: 9rem;
   display: flex;
   flex-direction: column;
   align-items: center; /* asegura que h1 y h2 estén centrados */

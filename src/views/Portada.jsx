@@ -11,7 +11,7 @@ const Portada = () => {
             </span>
           ))}
         </h1>
-        <h2 className="enfoque">
+        <h2 className="enfoque ms-5">
           {texto2.split("").map((letra, i) => (
             <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
               {letra === " " ? "\u00A0" : letra}
