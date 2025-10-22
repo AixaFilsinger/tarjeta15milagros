@@ -194,7 +194,7 @@ const Varios = () => {
     </article>
     <article className="text-center mb-5 container p-3" data-aos="fade-up">
         <h3 className="qr mb-5 mt-5">
-          Compartamos los recuerdos de la noche juntos. ¡Subí tus fotos acá!
+          Compartamos los recuerdos de la noche juntos.<br/>¡Subí tus fotos acá!
         </h3>
         <img src={qr} alt="" width={300} />
       </article>
