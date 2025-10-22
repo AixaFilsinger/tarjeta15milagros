@@ -97,6 +97,7 @@ body{
 }
 
 .portada .textos {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   margin-bottom: 9rem;
   display: flex;
   flex-direction: column;
