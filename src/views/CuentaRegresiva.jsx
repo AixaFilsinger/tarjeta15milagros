@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const CuentaRegresiva = () => {
-  const targetDate = new Date("2025-10-28T21:00:00").getTime(); // FECHA DEL EVENTO
+  const targetDate = new Date("2025-11-29T21:30:00").getTime(); // FECHA DEL EVENTO
 
   const [timeLeft, setTimeLeft] = useState({
     days: "00",
