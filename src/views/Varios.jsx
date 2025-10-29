@@ -196,7 +196,7 @@ const Varios = () => {
           )}
         </aside>
       </article>
-      <img src={adorno} alt="" width={300} />
+      <img src={adorno} alt="" width={300} className="mb-5"/>
       
     </section>
     </article>
