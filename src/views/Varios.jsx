@@ -34,9 +34,17 @@ const Varios = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
           >
-            23 de noviembre Virgen de la merced<br />
-            21:30
+            23 de noviembre<br/>Iglesia Virgen de la Merced<br />
+            20hs
           </p>
+          <button
+            className="btn-varios mt-3 mb-5"
+            onClick={() =>
+              window.open("https://maps.app.goo.gl/KVPWULJEK3yu9vaE6")
+            }
+          >
+            CÓMO LLEGAR
+          </button>
         </aside>
         <aside className="col-xs-12 text-center cuando mb-4 mt-5 position-relative">
             <img src={brillo} alt="" className="brillo brillo-top"/>
